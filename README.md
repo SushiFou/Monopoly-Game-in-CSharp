@@ -82,14 +82,19 @@ Here is a brief explanation of each :
 
 ## The Decorator Design Pattern
 
+We chose to use this pattern in order for our properties to be evolving during the course of the game. First, their situation : bought or not. Then, if a player chose to buy a house or a hotel for this property, the taxes should be changing as well. At first, we had the ambition to use it as well to group properties (Streets so the tax rise up and we build up to 5 houses) like other Monopoly Games, but it turned out that it was way more complicated than wr thought it would be. So here it is : 
 
+![image](https://user-images.githubusercontent.com/57563656/70870791-f211d880-1f97-11ea-9e42-e724f9fe2225.png)
 
-
+![image](https://user-images.githubusercontent.com/57563656/70870794-035ae500-1f98-11ea-96c9-732425bb07cd.png)
 
 
 ## The Factory Design Pattern
 
+We chose to use this pattern in order to create Square cards more efficiently in our Monopoly Board. Unlike properties, cards are a like a dynamic object in this project whereas there isn't two similar properties on the board. Each time a player falls on a card square on the board (Chance Card or Community Chest), a random number is generated. Each number have a different action. 
+
 - UML Diagram
+
 ![image](https://user-images.githubusercontent.com/57563656/70870761-86c80680-1f97-11ea-8f34-39536de11b98.png)
 
 - Code : 
@@ -110,7 +115,7 @@ This Factory Pattern enables us to instantiate Square very easily afterwards :
 
 ## The Singleton Design Pattern
 
-Singleton Pattern here ensures at any given point of time only one instance of the board is alive.
+The choice of using a Singleton Pattern here ensures at any given point of time only one instance of the board is alive.
 
 ![image](https://user-images.githubusercontent.com/57563656/70870565-246e0680-1f95-11ea-95fc-4d4dc3950a1a.png)
 
