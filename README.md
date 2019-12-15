@@ -8,7 +8,6 @@
 - [The Decorator Design Pattern](#the-decorator-design-pattern)
 - [The Factory Design Pattern](#the-factory-design-pattern)
 - [The Singleton Design Pattern](#the-singleton-design-pattern)
-- [The Bridge Design Pattern](the-bridge-design-pattern)
 
 
 ## Project Overview
@@ -53,11 +52,16 @@ Here is a brief explanation of each :
 
 - All properties implemented with options to buy, add house and add hotels to increase future revenues
 
+![image](https://user-images.githubusercontent.com/57563656/70870386-08696580-1f93-11ea-941f-ae1f5f604d1a.png)
+
 - Chances Cards and Community_Chest Cards implemented with random events : earn money, pay taxes, move backwards or forwards...
 
 ![image](https://user-images.githubusercontent.com/57563656/70870352-9db82a00-1f92-11ea-8211-a0e2af944a1c.png)
 
 - Jail option added
+
+![image](https://user-images.githubusercontent.com/57563656/70870390-1ae39f00-1f93-11ea-826d-a85fc591834d.png)
+![image](https://user-images.githubusercontent.com/57563656/70870396-2e8f0580-1f93-11ea-8606-81b4bbbbcb87.png)
 
 - Players win when their opponents gave up or lost all their money
 
@@ -65,18 +69,15 @@ Here is a brief explanation of each :
 
 - Players have to pay taxes if they are on another's one property
 
+![image](https://user-images.githubusercontent.com/57563656/70870415-6ac26600-1f93-11ea-9954-b1b56302b078.png)
+
 - Dashboard option to see our information
+
+![image](https://user-images.githubusercontent.com/57563656/70870382-f4bdff00-1f92-11ea-8dcb-c1926101f244.png)
 
 - Game Status Option
 
 ![image](https://user-images.githubusercontent.com/57563656/70870373-c7715100-1f92-11ea-8334-be2b3bd0e922.png)
-
-
-
-
-
-
-
 
 
 ## The Decorator Design Pattern
