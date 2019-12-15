@@ -39,17 +39,40 @@ Here is a brief explanation of each :
 
 - *SquareFactory* : Part of the factory pattern !
 
-
-
-
-
-
-
 ## What Monopoly functionalities we have implemented
 
+- 2-6 players
+
+![image](https://user-images.githubusercontent.com/57563656/70870343-73ff0300-1f92-11ea-889c-9fe2baa61b64.png)
+
+- Random Dice Rolling
+
+![image](https://user-images.githubusercontent.com/57563656/70870349-88430000-1f92-11ea-856c-09c84cd9cc0c.png)
+
+- 40 Square Board
+
+- All properties implemented with options to buy, add house and add hotels to increase future revenues
+
+- Chances Cards and Community_Chest Cards implemented with random events : earn money, pay taxes, move backwards or forwards...
+
+![image](https://user-images.githubusercontent.com/57563656/70870352-9db82a00-1f92-11ea-8211-a0e2af944a1c.png)
+
+- Jail option added
+
+- Players win when their opponents gave up or lost all their money
+
+- Players earn money each tour they make.
+
+- Players have to pay taxes if they are on another's one property
+
+- Dashboard option to see our information
+
+- Game Status Option
+
+![image](https://user-images.githubusercontent.com/57563656/70870373-c7715100-1f92-11ea-8334-be2b3bd0e922.png)
 
 
-this is a test.
+
 
 
 
