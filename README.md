@@ -87,12 +87,17 @@ Here is a brief explanation of each :
 
 
 
-this is a test.
-
-
-
 ## The Factory Design Pattern
 
 
-this is a test.
+
+
+## The Singleton Design Pattern
+
+Singleton Pattern here ensures at any given point of time only one instance of the board is alive.
+
+![image](https://user-images.githubusercontent.com/57563656/70870565-246e0680-1f95-11ea-95fc-4d4dc3950a1a.png)
+
+In this portion of code, the thread is locked (function lock) on a shared object and checks whether an instance has been created or not.
+Thanks to this code, we will take care of memory barrier issues and ensure that only one thread will create an instance.
 
