@@ -19,15 +19,24 @@ We have decided to create multiple classes (you also see abstract classes on the
 
 Here is a brief explanation of each : 
 
-- Board.cs : This is our singleton design pattern class, it will instantiate a unique board for our game, with all the properties and cards and jail !
+- *Board.cs* : This is our singleton design pattern class, it will instantiate a unique board for our game, with all the properties and cards and jail !
+
 - *Card.cs* : This is an the product of our factory pattern, cards have different types of actions : give or take money, move players...
+
 - *CardFactory* : The Factory for the product Cards, we'll just have to give a position in the future to create one for the board
+
 - *Game.cs* : The "big" class, that monitors the game in terms of UI, create a board, called from the very beginning to the very end.
+
 - *Player.cs* : This class enables us to monitor player's ressources (money, properties, jail or not) and his position very easily after instanciation
+
 - *Program.cs" : Contains our main function, very simple & basic but we wanted it to be clear (create a game)!
+
 - *Property.cs* : As we know, Monopoly's Board is not only about getting cards, but also properties. This class enables us to manipulate property, reading their values, names, etc...
+
 - *PropertyDecorator.cs* : This contains the decorator pattern that we wanted to implement, we use it when a property changes its state : bought / player has bought a house / player has bought a hotel : we'll discuss this more in-depth later.
+
 - *Square* : Our board is made of Squares that can be properties, cards, taxes or jail ! But all these share the same instance : a position !
+
 - *SquareFactory* : Part of the factory pattern !
 
 
