@@ -89,8 +89,24 @@ Here is a brief explanation of each :
 
 ## The Factory Design Pattern
 
+- UML Diagram
+![image](https://user-images.githubusercontent.com/57563656/70870761-86c80680-1f97-11ea-8f34-39536de11b98.png)
 
+- Code : 
 
+![image](https://user-images.githubusercontent.com/57563656/70870651-34d2b100-1f96-11ea-872d-38b841d6b2d7.png)
+
+![image](https://user-images.githubusercontent.com/57563656/70870631-f3420600-1f95-11ea-9d43-fa474e2e4030.png)
+
+![image](https://user-images.githubusercontent.com/57563656/70870637-06ed6c80-1f96-11ea-8f34-230eab84ef94.png)
+
+![image](https://user-images.githubusercontent.com/57563656/70870645-1d93c380-1f96-11ea-8a24-cf6d54c7ecf1.png)
+
+This Factory Pattern enables us to instantiate Square very easily afterwards :
+
+![image](https://user-images.githubusercontent.com/57563656/70870773-ae1ed380-1f97-11ea-9bdc-4b11a343ae1f.png)
+
+![image](https://user-images.githubusercontent.com/57563656/70870782-becf4980-1f97-11ea-8ce3-95847ea29fa2.png)
 
 ## The Singleton Design Pattern
 
